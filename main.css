@@ -1,0 +1,254 @@
+/* 
+	CSS for primary definitions included in all pages. 
+	Defines overall appearance and structure 
+*/
+	
+/* hack to hide navbar CSS from dumb browsers */
+@media screen {
+	div#navbar {
+		position: fixed;
+	}
+		
+	* html div#navbar {
+		position: absolute;
+	}
+}
+
+/*
+	CSS which is used only for debugging to highlight
+	debug messages.
+*/
+@media screen {
+	.debug {
+		border:thick groove red;
+	}
+}
+
+/* This code is not enabled. Don't turn it on until 
+  related markup is changed.
+  
+  Hack to "fix" the q-tag so it works in Internet Explorer 
+  by breaking it everywhere else and using literals.
+  [expletives deleted!!
+  
+  Quotation entities:
+
+  Left double quotation mark (eg. “): &ldquo;
+  Right double quotation mark (eg. ”): &rdquo;
+  left single quotation mark (eg. ‘): &lsquo;
+  Right single quotation mark (eg. ’): &rsquo;
+  Straight quotation mark (eg. "): &quot;
+
+  
+  q:before, q:after {
+      content: ""; }
+*/
+
+/** Define page layout: 
+  3-column with center variable width 
+  full width banner at the top
+  */
+
+/** Column 1: Left column 
+  is reserved for primary navigation and badges like
+  CSS version or whatever. */
+#navbar{ 
+	/* layout */
+	position: absolute;
+	left:10px;
+	top:70px;
+	width:200px;
+	
+	/* format */
+	color: black; background: #f0f0ff;
+	border-top:5px solid #B0B080;
+	border-bottom:5px solid #B0B080;
+	}
+	
+	/** Column 3: the right column (sidebar) 
+	  is reserved for local support for the current page.
+	  This includes page overlays and "tidbits".
+	 */
+	#sidebar { 
+		position: absolute; 
+		right:10px;
+		top:70px;
+		width:200px;
+		border:none;
+	/*	border:1px solid #000; */
+		}
+	#sidebar h1,h2,h3 {
+		font-size:medium;
+		text-align:center;
+ 	}
+	.sidebar-item {
+	font-size:small;
+	color: black; background:#fff;
+	}
+	
+  .prop {  /* simulate min-height (CSS) */
+	  float:right;
+	  height:400px;
+	  width:1px;
+	}
+	
+	/** The center column holds the general content
+	  of the page including the page footer.
+	*/
+	#content { 
+		position:absolute; 
+		left: 210px;
+		right:210px;
+		width: 50%;
+		top:70px;
+		font:	100%/138% "Times New Roman", Times, Serif;
+		color: black; background: white; 
+	}
+	/** Top of the page banner and footer 
+	  for all pages. 
+	*/
+	#banner { 
+		color:black; background:#fff;
+		height:40px;
+		/*
+		border-top:1px solid #000;
+		border-right:1px solid #000;
+		border-left:1px solid #000;
+		 */
+		}
+	#footer { /* generic footer for all pages */
+		font-size: small; font-style:italic;
+		text-align: center;
+		position: relative;
+		clear: both;
+		}
+
+/** Sidebar navigation 
+  is a dropdown box, normally at the top of the sidebar. 
+  A dropdown list adds content to the bottom of the main
+  column.  
+  */
+#navcontainer { 
+color: black; background: #f0f0ff;
+border:5px solid navy;
+}
+#navcontainer  p {
+color: black; background: #f0f0ff;
+}
+#navcontainer form {
+margin: 20px 10px 20px 10px;
+}
+#navcontainer select, 
+#navcontainer input, 
+#navcontainer p {
+text-align:center;
+}
+#navcontainer option {
+text-align:left;
+}
+#banner h1 {
+	font-size:x-large;
+	color:red; background:navy;
+	text-align: center;
+	padding:10px 10px 0px 10px;
+	margin:0px;
+	}
+
+/** Define the logo and other miscellaneous stuff.
+  */
+#introduction img {
+	float:right; 
+	margin-left:1em;
+	width:250px; 
+	height:190px;
+}
+.weather img { /* define box for weather link (which may use defaults instead) */
+	border: 0;
+	height: 50px;
+	width: 150px;
+}
+.date {
+	font-size: small; font-style:italic;
+	text-align: center;
+	position: relative;
+}
+.ampm {
+	font-variant: small-caps;
+	}
+
+.clear {
+  clear:both;
+  height:1px;
+  overflow:hidden;
+}
+p,h1,pre {
+	margin:0px 10px 10px 10px;
+	}
+
+/* Formatting */
+
+.printOnly {
+  display: none;
+}
+#search a {
+	font-style:italic;
+	font-size:small;
+}
+.update {
+	color:red; background:white;
+}
+h1, h2 { /* common properties for headers */
+	font-family: Arial, helvetica, sans-serif;
+	font-weight: bold;
+	page-break-after: avoid;
+	color:black; background:white;
+	}
+h1 { /* page header */
+	font-size: x-large; 
+	color: navy; background: inherit;
+	text-align: center;
+	padding-top:10px;
+	}
+h2 { /* page sub-heading */
+	font-size: medium;
+	text-align: center;
+}
+
+#preamble p {
+	color: navy; background: inherit;
+	font-style: italic;
+	margin: 2em;
+}
+
+.footnotes {
+	font-size: small;
+	border: 2px solid #999;
+}
+
+.usps-contact {
+	text-align:center;
+}
+dt {
+	font-weight: bold;
+	}
+dd	{
+	margin-bottom: 1em;
+	}
+	
+p  { /* basic body text paragraph */
+	margin-bottom: 1em; widows: 2; orphans: 2;
+	}
+
+blockquote {
+	margin-left: +4em;
+	}
+	
+ol        { list-style-type: decimal }      /* 1 2 3 4 5 etc. */
+ol ol     { list-style-type: lower-alpha }  /* a b c d e etc. */
+ol ol ol  { list-style-type: lower-roman }  /* i ii iii iv v etc. */
+
+abbr, acronym, .help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+

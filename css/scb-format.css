@@ -1,0 +1,198 @@
+/* fcb-format.css
+ This section defines formatting within different columns 
+ or areas of the site.
+*/
+
+#sidebar h1,
+#sidebar h2,
+#sidebar h3 { 
+	font-size:medium;
+	text-align:center;
+}
+.sidebar-item {
+font-size:small;
+color: black; background:transparent;
+}
+
+#content { 
+	color: black; 
+	background: #f7f2ea;; 
+}
+	
+/* formatting within main content column */
+#content p,
+#content h1,
+#content pre {
+	margin:1em 0;
+	}
+#content h1, 
+#content h2 { 
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+	}
+	
+#content h1 
+	font-size: large; 
+	color: navy; 
+	background: inherit;
+	text-align: left;
+	}
+	
+#content h2 { 
+	font-size: medium;
+	text-align: left;
+}
+
+/*CHANGED Above here, each occurance of #content was written div#content*/
+/*CHANGED 26-Nov-2007 Aaron flatten lists (insert 0 margin left)*/
+#content dt {
+	font-weight: bold;
+	margin-left: 0;
+	}
+#content dd	{
+	margin-bottom: 1em;
+	margin-left: 0;
+	}
+
+#content p  { /* basic body text paragraph */
+	margin-bottom: 1em; widows: 2; orphans: 2;
+	}
+
+#content blockquote {
+	margin-left: +4em;
+	}
+	
+#content ol        { list-style-type: decimal }      /* 1 2 3 4 5 etc. */
+#content ol ol     { list-style-type: lower-alpha }  /* a b c d e etc. */
+#content ol ol ol  { list-style-type: lower-roman }  /* i ii iii iv v etc. */
+
+#content abbr, 
+#content acronym, 
+.help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+
+#footer {
+	font-size: small; font-style:italic;
+	text-align: left;
+	}
+#footer p.datestamp {
+	float:right; 
+	margin-right: 2em;
+	padding:.5em 15px;
+	}
+#footer img {
+	float:left; 
+	margin:1em;
+	padding:0;
+	}
+
+/** Define the logo and other miscellaneous stuff. */
+/*
+#introduction img {
+	margin:1em;
+	padding:0;
+}
+*/
+#introduction img {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#preamble p {
+	color: navy; background: inherit;
+	font-style: italic;
+	margin: 2em;
+}
+.caption {
+	font-size:small;
+	text-align:center;
+}
+.footnotes {
+	font-size: small;
+	border: 2px solid #999;
+}
+
+/*CHANGED 27-Nov-2007 Remove forced size for photos*/
+img.poster {
+	float:right; 
+	margin-right:1em;
+	font-size:small;
+	height:300px;
+	width:232;
+}
+img.logo {
+	float:right; 
+	margin-right:1em;
+	font-size:small;
+	height:250px;
+	width:190;
+}
+img.ACBlogo {
+	height:72px;
+	width:72px;
+	display: block;
+   margin-left: auto;
+   margin-right: auto
+}
+.weather img { /* define box for weather link (which may use defaults instead) */
+	border: 0;
+	height: 50px;
+	width: 150px;
+}
+.date {
+	font-size: small; font-style:italic;
+	text-align: center;
+	position: relative;
+}
+.ampm {
+	font-variant: small-caps;
+	}
+
+.clear {
+  clear:both;
+  height:1px;
+  overflow:hidden;
+}
+
+
+/* Formatting */
+/*
+	CSS which is used only for debugging to highlight
+	debug messages.
+*/
+@media screen {
+	.debug {
+		border:thick groove red;
+	}
+}
+
+.printOnly {
+  display: none;
+}
+#search a {
+	font-style:italic;
+	font-size:small;
+}
+.update {
+	color:red; background:white;
+}
+
+.usps-contact {
+	text-align:left;
+}
+
+/*#announcements li { font-size: 150%; } /* increase display size */*/
+
+/* use fonts to distinguish jazz band from concert band */
+.jb { /*jazz band*/
+	color: #030; /*a dark green*/
+	font-style: italic;
+}
+.cb { /*concert band*/
+	color: navy; 
+	font-style: normal;
+}
+.pb { 
+	color:red; 
+	font-style: normal;}

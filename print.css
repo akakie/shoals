@@ -1,0 +1,22 @@
+/* 
+	CSS to suppress areas of a page which are not printed.
+	Included in all main pages.
+*/
+
+#banner, #navbar, #menu, #footer, #sidebar, #intro, #program-archive, #fcband-logo, #introduction, .debug {
+	display: none;
+	}
+	
+#content {
+	width: 85%;
+	border: 0;
+	margin: 5%;
+	padding: 0;
+	color: black; background-color: white;
+	position: static;
+	float: none !important;
+	}
+#content td,
+#content th {
+	color: black; background-color: white;
+	}

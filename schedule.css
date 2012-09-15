@@ -1,0 +1,59 @@
+/*Result of merging CSS files*/
+
+/*For table-style listings*/
+
+table {
+	border: none;
+	margin-left: 0;
+	}
+caption { caption-side: top}
+th	{font-weight: bold }
+th, td	{ /* default for all cells */
+	border: none;
+	text-align: left;
+	vertical-align: top;
+	}
+.left { /* left column */
+	text-align: left;
+	}
+.right { /* right column */
+	text-align: right;
+}
+
+td.note {
+	color:red;
+	background-color: #CFF;
+	text-align:center;
+	}
+	
+.change {
+ color:red;
+ background:transparent; 
+}
+
+.concert {
+  color:navy;
+  background:transparent;
+}
+
+.past {
+  color:gray; 
+  background: transparent;
+  }
+
+ul#dates {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+	
+ul#dates li { 
+	display: inline; 
+	float: left;
+	width: 4em;
+	color: #fff;
+	background-color: #036;
+	padding: 0.2em 1em;
+	border-right: 1px solid #fff;
+	}
+

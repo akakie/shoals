@@ -1,0 +1,107 @@
+/*  Supplement to navbar css
+ *  This CSS adds popout lists to the navigation items
+ *  and doesn't seem to work very well on older ID (as in v6)
+ *  I need to re-examine this for a more general solution which
+ *  probably means some kind of scripting instead of a pure CSS 
+ *  solution.
+ */
+/*  ---  Navigation Bar: adapted from Mark Irons  ---  */
+
+/*
+ *  Here's where the magic happens. First we put the division
+ *  containing the navigation bar in an absolute position using
+ *  the left property. Then we set its position to fixed, which
+ *  keeps it from scrolling with the rest of the page's contents.
+ *
+ *  Adjust padding, background, and borders to taste.
+ *
+ */
+
+div.navigation-bar {
+
+  /* important */
+  left:           15px;         /* put it in wide left margin */
+  position:       absolute;     /* fixed fails in IE 6   */
+  width:          150px;        /* limit width for IE */
+
+  /* not important */
+  padding:        10px;
+  background:     #F0F0FF;
+  color:		  black;
+  border-top:     5px solid #B0B080;
+  border-bottom:  5px solid #B0B080;
+}
+
+
+/*
+ *  We use this to make the vertical bars that appear between menu
+ *  items on non-CSS browsers invisible on CSS browsers.
+ *
+ */
+
+.invisible {
+
+  /* important */
+  display:        none;          /* hide on browsers that render CSS      */
+}
+
+
+/*
+ *  The only really important property here is display. It forces line
+ *  breaks between items. The rest can be changed as you like.
+ *
+ */
+
+.navbar-item {
+
+  /* important */
+  display:        block;         /* forces line breaks between items       */
+
+  /* not important */
+  margin-bottom:  0px;
+  padding:        0px;
+  font-size:      smaller;
+  font-family:    "Century Gothic", "News Gothic", Helvetica, Arial, sans-serif;
+  text-align:     right;
+}
+
+
+/*
+ *  This adds some spacing between the logo and the first navbar item.
+ *
+ */
+
+#first-navbar-item {
+
+  /* not important */
+  margin-top:     15px;
+  text-decoration: none;
+  color: navy; background: transparent;
+  text-align: center;
+}
+
+
+/*
+ *  This inserts the logo into the navigation bar.
+ *
+ */
+
+span.navbar-image:after {
+
+  /* important */
+
+  /* content:        url();  */
+
+  /* inserts image after dummy SPAN element */
+  /* not important */
+}
+h1 {
+	font-size: x-large; 
+	color: red; background: transparent;
+	text-align: center;
+	}
+h2 { /* page sub-heading */
+	font-size: medium;
+	text-align: center;
+	}
+

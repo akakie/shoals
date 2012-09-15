@@ -1,0 +1,76 @@
+<!-- Expects menu.css -->
+<div id="menu">
+  <ul>
+    <!-- about -->
+    <li>
+      <h2>About the band</h2>
+      <ul>
+        <!-- about detail -->
+        <li><a href="." title="Home page">Home page</a></li>
+        <li><a href="about.php" title="About the band">Introduction</a></li>
+        <li>
+          <a href="organization.php" title="Organization of the band" class="x">Organization</a>
+          <ul> <!-- Organization detail -->
+            <li><a href="history.php" title="history of the band">History or the Organization</a></li>
+            <li><a href="org-docs.php" title="organizing documents">Constitution &amp; Bylaws</a></li>
+            <li><a href="board.php" title="Board of Directors">Board of Directors</a></li>
+          </ul> <!-- Organization detail-->
+        </li> <!-- Organization -->
+        <li><a href="funding.php" title="How we pay for the band">Funding</a></li>
+        <li><a href="contacts.php" title="How to contact the band">Contact Us</a></li>
+        <!-- <li><a href="program-archive.php" title="Concert programs">Concert programs</a></li> -->
+      </ul><!-- about detail -->
+    </li>
+  </ul><!-- about -->
+  <ul>
+    <li>
+      <h2 id="about_the_music">About the music</h2>
+      <ul>
+        <li><a href="music-lib-cb.php" title="Concert Music library">Concert Band Library</a></li>
+        <li><a href="music-folder-cb.php" title="Concert Music in Rehearsal">Music in rehearsal</a></li>
+        <li><a href="music-wish-cb.php" title="Concert Music Wish List">Concert Band Wish List</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <!-- rehearsals -->
+    <li>
+      <h2>Schedule</h2>
+      <ul>
+        <li><a href=index.php#events title="Next activities for each band">Next events on the schedule</a></li>
+        <li><a href=sked-both.php title="Scuedule for current season">Schedule for Season</a></li>
+        <li><a href="events.php" title="Other music events submitted by members">Other music events</a></li>
+        
+        <!-- <li><a href="schedule.php" title="Rehearsal schedule">Rehearsals spring</a></li> -->
+        <!-- <li><a href="schedule-summer.php" title="Rehearsals (summer)">Rehearsals summer</a></li> -->
+         
+      </ul>
+    </li>
+  </ul><!-- rehearsals -->
+  <ul>
+    <!-- performances -->
+    <li>
+      <h2>For Members &amp; Audiences</h2>
+      <ul>
+        <li><a href="concert-notes.php" title="Concert notes for members">Concert notes</a></li>
+        <li><a href="practice-notes.php" title="Guidelines for rehearsals">Rehearsal notes</a></li>
+        <li><a href="gallery" title="Pictures of the band">Photo Gallery</a></li>
+        <li><a href="bandmail" title="Subscriptions to our mailing lists">Mailing lists</a></li>
+        <!-- <li><a href="schedule-concert.php" title="Winter schedule">Winter schedule</a></li>
+        <li><a href="schedule-summer.php" title="Summer Schedule">Summer Schedule</a></li> -->
+      </ul><!-- performance detail -->
+    </li>
+  </ul><!-- performances -->
+  <ul>
+    <!-- community -->
+    <li>
+      <h2>Community</h2>
+      <ul>
+        <!-- community detail -->
+        <li><a href="neighbors.php" title="Other bands nearby by Alakan standards">Neighbors</a></li>
+        <!-- <li><a href="help.php" title="help with problems">Help desk</a></li> -->
+        <li><a href="links.php" title="External links">Links</a></li>
+      </ul><!-- community detail -->
+    </li>
+  </ul><!-- community -->
+</div><!-- end of menu -->

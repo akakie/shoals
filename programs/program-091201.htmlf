@@ -1,0 +1,85 @@
+<div id="program-archive">
+  <h1><cite>Christmas Concert</cite></h1>
+  <h2>
+      Program for Tuesday, December 1<br />7:15pm Shoals Theater
+    </h2>
+
+    <div id="playlist" title="playlist in performance order">
+      <table title="Program for December 1, 7:15pm Shoals Theater">
+
+        <!-- <tr>
+          <td colspan="2" class="note">
+          Concert Band Program<br />
+          Wendy Ward, Director<br />
+          Pam Hallberg, Guest Emcee
+          </td>
+        </tr> -->
+         
+  <tr><th>Selection</th><th>Composer<br/>Arranger</th></tr>
+
+  <tr>
+    <td colspan="2" class="note">
+    Shoals Community Band
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td><cite>Kris Kringle's Jingle</cite>
+       </td>
+    <td>Jerry Williams
+    </td>
+  </tr>
+  <tr>
+    <td><cite>Candlelight Carol</cite>
+       </td>
+    <td>John Rutter
+    </td>
+  </tr>
+  <tr>
+    <td><cite>C'est Noel!!</cite>
+       </td>
+    <td>André Jutras
+    </td>
+  </tr>
+  <tr>
+    <td><cite>Christmas Rhapsody</cite>
+       </td>
+    <td>Jim Curnow
+    </td>
+  </tr>
+  <tr>
+    <td><cite>A Christmas Portrait</cite>
+       </td>
+    <td>
+     <br />arr: J. Nowak</td>
+  </tr>
+  <tr>
+    <td><cite>'Twas In The Moon of Wintertime</cite>
+       </td>
+    <td>
+     <br />arr: Robert W. Smith</td>
+  </tr>
+  <tr>
+    <td><cite>An Irving Berlin Christmas</cite>
+       </td>
+    <td>I. Berlin
+     <br />arr: W. Barker</td>
+  </tr>
+  <tr>
+    <td><cite>A Fireside Christmas</cite>
+       </td>
+    <td>
+     <br />arr: J. Swearingen</td>
+  </tr>
+  <tr>
+    <td><cite>Sleigh Ride</cite>
+       </td>
+    <td>Leroy Anderson
+    </td>
+  </tr>
+  </table>
+
+  </div> <!-- playlist -->
+</div> <!-- program -->
+

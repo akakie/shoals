@@ -1,0 +1,43 @@
+<?php
+  // Configure page for specific report
+  $pageTitle    ="Contacts";
+  $pageContent  ="How to contact the Fairbanks Community Band.";
+  $pageKeywords ="contact,email,address,internet";
+  $pageStyle    ="";
+  $dataFile     ="";  
+  $sortTable    = false;
+  $download     = false;
+  
+  require_once 'site.inc';  // site-wide definitions
+
+	// Add local configuration
+	$r_format = $dateFormat;                     # define format once for consistency
+  
+  $debug=false;                                     # set debug mode (or not)
+	$testDate = strtotime('jul 26 2007 6 pm');       # set to a test date for debug
+  
+?>
+
+<?php
+  $pageNotes = 
+    '<h2>Note</h2>
+    <p>To contact people who perform services for the band please use the form provided. 
+    The actual addresses are not in the web page at all.</p>';
+  require_once 'page-sidebar.php';
+?>
+		
+<div id="content">
+
+  <h1>Contact the Band</h1>
+
+  <h3>By <abbr title="United States Postal Service">USPS</abbr></h3>
+  <address class="usps-contact">
+    <?php echo $address; ?>
+  </address>
+
+  <h3>By email<br/>
+    Select the person you want to contact from the drop-down list below.</h3>
+
+  <?php require_once ("scform.inc");?>
+  
+  <?php require_once ("page-footer.php"); ?>

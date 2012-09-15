@@ -1,0 +1,120 @@
+ /*	This page defines common styles for the Fairbanks Commnity Band. 
+  * For styles specific
+  *	to a page, either use inline styles or define a local style sheet and
+  *	store it in the local directory.
+  *	
+  *	design principles:
+  *		use inheritence;
+  *		avoid absolute measures in most cases;
+  *		limit use of graphics, provide links instead;
+  */
+
+/*	Indent body for better readability and to leave room
+ *	for a navigation bar.
+ */
+
+/*  ---  Content styles  ----------------------------------------  */
+
+/*
+ *	Tables don't inherit from body.
+ */
+body, th, td { 
+	width: 32em;	/* keep text narrow for readability */
+	color: black; background: white; 
+	margin-left:    200px;    /* give navigation bar a wide margin     */
+	margin-right:   2em;
+	margin-top:     1em;
+	font-size: medium;
+	font:			83.5%/138% "Times New Roman", Times, Serif;
+	}
+	
+.footer { /* generic footer for all pages */
+	font-size: small; font-style:italic;
+	text-align: center;
+	}
+	
+h1, h2, h3, h4, h5, h6 { /* common properties for headers */
+	font-family: Arial, helvetica, sans-serif;
+	font-weight: bold;
+	page-break-after: avoid;
+	color:inherit;
+	}
+h1 { /* page header */
+	font-size: x-large; 
+	color: navy; background: transparent;
+	text-align: center;
+	}
+h2 { /* page sub-heading */
+	font-size: medium;
+	text-align: center;
+	}
+h4 { /* first level heading in body */
+	font-size: medium; font-style: italic;
+	color: #666; background: transparent;
+	}
+h5 { /* second level heading in body */
+	font-size: medium; 
+	color: #000; background: transparent;
+	}
+dt {
+	font-weight: bold;
+	}
+dd	{
+	margin-bottom: 1em;
+	}
+p  { /* basic body text paragraph */
+	margin-bottom: 1em; widows: 2; orphans: 2;
+	}
+
+blockquote {
+	margin-left: +4em;
+	}
+ol        { list-style-type: decimal }      /* 1 2 3 4 5 etc. */
+ol ol     { list-style-type: lower-alpha }  /* a b c d e etc. */
+ol ol ol  { list-style-type: lower-roman }  /* i ii iii iv v etc. */
+
+abbr, acronym, .help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+
+/* --- Divisions ---*/
+div {
+	clear:both
+	}
+
+
+div.google-search {
+	font-size:	smaller;
+ 	font-family:  "Century Gothic", "News Gothic", Helvetica, Arial, sans-serif;
+}
+	
+div.schedule td.note {
+	color:red;
+	background-color: #CFF;
+	text-align:center;
+	}
+.past {color:gray; background: transparent;}
+
+
+div.schedule table {
+	border: none;
+	margin-left: 0;
+	}
+div.schedule caption { caption-side: top}
+div.schedule th	{font-weight: bold }
+div.schedule th, td	{ /* default for all cells */
+	border: none;
+	text-align: left;
+	vertical-align: top;
+	}
+div.schedule .left { /* left column */
+	text-align: left;
+	}
+div.schedule .right { /* right column */
+	text-align: right;
+}
+	
+div.page-head img {float:left;}
+
+	

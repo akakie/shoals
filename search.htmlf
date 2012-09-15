@@ -1,0 +1,16 @@
+<!-- Small form for searching a specific site only using Google Search.
+	Requires key from Google.
+-->
+<div id="search"> <!-- Search this site with Google -->
+<form method="get" action="http://www.google.com/u/FCBand"> 
+	<p>
+	Search <em>communityband.org</em><br />
+	<input type="text" name="q" size="20" maxlength="255" value="" />
+	<input type="hidden" name="domains" value="communityband.org" />
+	<input type="hidden" name="sitesearch" value="communityband.org" /> <br />
+	<input type="submit" name="sa" value="Search" />
+	<a href="http://www.google.com/">Powered by Google</a>
+	</p>
+</form>
+
+</div> <!-- end search -->

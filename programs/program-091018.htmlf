@@ -1,0 +1,84 @@
+<div id="program-archive">
+  <h1><cite>Fall Concert</cite></h1>
+  <h2>
+      Program for Sunday, October 18<br />8:00 pm Shoals Theater
+    </h2>
+
+    <div id="playlist" title="playlist in performance order">
+      <table title="Program for October 18, 8:00 pm Shoals Theater">
+
+        <!-- <tr>
+          <td colspan="2" class="note">
+          Concert Band Program<br />
+          Wendy Ward, Director<br />
+          Pam Hallberg, Guest Emcee
+          </td>
+        </tr> -->
+         
+  <tr><th>Selection</th><th>Composer<br/>Arranger</th></tr>
+
+  <tr>
+    <td colspan="2" class="note">
+    Shoals Community Band
+    </td>
+  </tr>
+  
+  <tr>
+    <td><cite>St Petersburg March</cite>
+       </td>
+    <td>Johnnie Vinson
+    </td>
+  </tr>
+  <tr>
+    <td><cite>Spirit of the Falcon</cite>
+       </td>
+    <td>Richard Saucedo
+     </td>
+  </tr>
+  <tr>
+    <td><cite>Gallito</cite>
+       </td>
+    <td>S. Lope
+     <br />arr: Weger</td>
+  </tr>
+  <tr>
+    <td><cite>Slavonic Dances #8</cite>
+       </td>
+    <td>A. Dvorak
+     <br />arr: R. Longfield</td>
+  </tr>
+  <tr>
+    <td><cite>American Riversongs</cite>
+       </td>
+    <td>Pierre LaPlante
+    </td>
+  </tr>
+  <tr>
+    <td><cite>Manatee Lyric Ovt</cite>
+       </td>
+    <td>Robert Sheldon
+    </td>
+  </tr>
+  <tr>
+    <td><cite>Flutopia (Fantasia for Flutes)</cite>
+        <br />solo: J. Jackson, E. Kelso, L. Rogers</td>
+    <td>D. Shaffer
+    </td>
+  </tr>
+  <tr>
+    <td><cite>National Emblem March</cite>
+       </td>
+    <td> E.E. Bagley
+     <br />arr: Schissel</td>
+  </tr>
+  <tr>
+    <td><cite>Emblem of Unity March</cite>
+       </td>
+    <td>J.J. Richards
+     <br />arr: Swearingen</td>
+  </tr>
+  </table>
+
+  </div> <!-- playlist -->
+</div> <!-- program -->
+

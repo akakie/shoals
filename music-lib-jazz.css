@@ -1,0 +1,13 @@
+<style type="text/css" media="all">
+/*<![CDATA[*/
+/*Set formats for table*/
+	.title {text-align:left;}
+	.composer {text-align:left;}
+	.lyrics {text-align:left;}
+	.arranger {text-align:left;}
+  th.title {width:35%;}
+  th.composer {width:20%;}
+	th.lyrics {width:20%;}
+  th.arranger {width:20%;}
+/*]]>*/
+</style>

@@ -1,0 +1,1 @@
+general admission $10; seniors, military, students $5; under 12 free

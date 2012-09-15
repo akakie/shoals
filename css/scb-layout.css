@@ -1,0 +1,174 @@
+/*
+Design by Lewis Overton for Fairbanks Community Band, Inc.
+Released under a Creative Commons Attribution 2.5 License
+*/
+
+/** Define page layout: 
+  3-column with liquid center and fixed width sidebars
+  full width banner at the top
+	full width footer at the bottom
+	
+	Design is derived from those at "A List Apart" and
+	Matthew James Taylor's "Holy Grail design" http://matthewjamestaylor.com/
+  */
+
+/* The basics: body and links */
+body { 
+	margin:0; 
+	padding:0;
+	width:100%;
+	font-size: 90%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	background: #f7f2ea;
+	}
+
+/* formatting for link elements within body */
+
+a:link {
+	color: #036;
+	}
+a:visited {
+	color: #066;
+	}
+a:hover, a:active {
+	color: #fff;
+	background-color: #036;
+	}
+/* end of body definitions */
+
+
+/* Header styles */
+/* Header is called "banner" here */
+
+#banner {
+	background-image: url(/images/header_bg.jpg);
+	background-repeat: no-repeat;
+	height: 150px;
+	padding: 0px;
+	background-color: #041943;
+	
+}
+#banner h1 {
+	display: block;
+	background-image: url(/images/title.gif);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 576px;
+	text-indent: -9999px;
+	z-index: -1;
+}
+
+
+/*
+#banner { 
+	float:left;
+	width:100%;
+	padding:8px;
+	margin:0;
+	bottom-border: 1px solid #000;
+	
+	color:red; background:navy;
+	text-align: center;
+	height:40px;
+	font-size:large;
+	}
+#banner h1 {
+	margin: 0;
+	font-weight: normal;
+	}
+
+*//* end header definition */
+
+
+/* Column styles
+
+	Three (or four) wrappers are used for layout
+	colmask  is the outer wrapper for the entire set of columns
+	colmid   is another wrapper 
+	columns  is yet another wrapper which contains the three column data
+	
+	col1wrap is a wrapper around the main content (may be missing)
+	
+	Content layout
+
+	col1     called "content" is the information page in the middle of the screen
+	col2     called "menu" on the left of the screen
+	col3     called "sidebar" is on the right of the screen
+
+	I never said it would be easy.
+*/
+
+#colmask {
+	position:relative;    /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;           /* width of whole page */
+	overflow:hidden;      /* This chops off any overhanging divs */
+	background:#b0c4de;   /* Left column background colour was #ffd8b7 */
+}
+#colmid {
+	float:left;
+	width:200%;
+	position:relative;
+	left:200px;
+	background:#fff;    	/* Centre column background colour */
+}
+#columns {              /* was called column right */
+	float:left;
+	width:100%;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+	background:	#b0c4de;    /* Right column background colour was #ff9 */
+}
+#col1wrap {
+	float:right;
+	width:50%;
+	position:relative;
+	right:100%;
+}
+#col1pad {
+	margin:0 15px 0 415px; /* top right bottom left -> why 415 left? */
+	overflow:hidden;
+}
+
+/** Column 1: Center column 
+	The center column holds the general content
+  of the page.
+*/
+#content {             /* this is the main content: col1 */
+	width:100%;
+	overflow:hidden;
+	background-color: #ffffff;
+}
+
+/* this is the navigation: menu == col2 */
+#menu { 
+	float:left;
+	width:170px;  
+	position:relative;
+	margin-left:-50%;
+	left:215px; 
+	overflow:hidden;
+}
+
+/* this is the sidebar == col3*/
+#sidebar { 
+	float:left;
+	width:170px;
+	position:relative;
+	left:15px;
+	overflow:hidden;
+}
+
+/* Footer layout */
+#footer { 
+	clear: both;
+	float:left;
+	width: 100%;
+	padding: 0;
+	border-top: 1px solid #999;
+}
+
+/* This ends the layout section. */

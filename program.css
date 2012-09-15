@@ -1,0 +1,85 @@
+<style type="text/css">
+/*
+	CSS specific to appearance of concert programs for online display.
+	Included only in program layout pages.
+*/
+/*#program-archive {
+	color: black; background: white;
+	margin-bottom: 1em;
+	}*/
+#program-archive h1{
+	color:black; background:white;
+}
+#program-archive h3 {
+	text-align:center;
+	}
+	
+#playlist table {
+	table-layout:fixed;
+	width:95%;
+	margin-bottom:2em;
+	border:3px solid black; 
+	border-collapse: collapse;
+	color: black; background: white;
+	}
+
+#playlist th {
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	text-align: center;
+	vertical-align: bottom ;
+	}
+#playlist td {
+	border:1px solid black;
+	margin:0;
+}
+#playlist .note { 
+	color:red !important; 
+	background:#f0f0ff;
+	text-align:center;
+	vertical-align:middle;
+	}
+#playlist .program {
+	margin:10px;
+	}
+/*
+#content {
+	margin:1em;
+	}*/
+	
+#program-041114  td,
+#program-041114  th {
+	color: navy; background: silver;
+	}
+	
+#program-041219  th,
+#program-041219  td {
+	color: maroon; background: aqua;
+	}
+	
+#program-050306  th,
+#program-050306  td {
+	color: navy; background: lime;
+	}
+	
+#program-050522 th,
+#program-050522 td {
+	color: black; background: #ffc;
+	}
+
+
+#program-051023 th,
+#program-051023 td {
+		color:black; background: aqua;
+		}
+
+#program-051218 th {
+	color:green; background: #ffc;
+	}
+#program-051218 td {
+		color:#ffc; background: red;
+		}
+#program-051218 .note {
+	color:red; background:#ffc;
+	}
+</style>

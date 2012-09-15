@@ -1,0 +1,17 @@
+<style type="text/css" media="all">
+/*<![CDATA[*/
+ /*Set formats for table*/
+	th.index {width: 10%;}
+	th.title {width: 35%;}
+	th.composer {width: 25%;}
+	th.price {width: 15%;}
+	th.own {width: 10%;}
+	th.tier {width: 5%;}
+	.title {text-align:left;}
+	.composer {text-align:left;}
+	.index {text-align:right;}
+	.price {text-align:right;}
+	.own {text-align:center;}
+	.tier {text-align:center;}
+/*]]>*/
+</style>

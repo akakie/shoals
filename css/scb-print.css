@@ -1,0 +1,69 @@
+/* 
+	CSS to suppress areas of a page which are not printed.
+	Included in all main pages.
+*/
+/* Remove unnecessary elements by ID */
+
+#banner, #footer,  /* header and footer */
+#sidebar, #menu, /* col2 and col3 */
+#intro, #introduction, #preamble, /* front matter on pages */
+#announcements,
+#program-archive, #fcband-logo,
+.debug 
+{
+	display: none;
+	}
+
+body {
+	color: black;
+	background: white;
+	font-size: 12pt;
+}
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+#content a[href^="/"]:after {
+  content: " (http://communityband.org" attr(href) ") ";
+   }
+
+#colmask,
+#colmid,
+#columns,
+#col1wrap,
+#col1pad {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	visibility: none;
+	float: none;
+}
+#content {
+	float: none !important;
+	overflow: visible;
+	width:100%;
+	border: none;
+	visibility: visible;
+	margin:0; 
+	padding: 0;
+	color: black; 
+	background: transparent;
+	text-align: left;
+	
+	}
+#content table {
+	width: 75% !important;
+	float:none;
+	}
+#content td,
+#content th {
+	color: black; background: transparent;
+	border: 0;
+	}
