@@ -176,7 +176,7 @@
           Florence, AL 35630
         </addr>
       </blockquote>
-      Please join us for live concert band music.
+      Join us for our annual concert featuring music of the Christmas season.
     </p>
     
 <?php endif ;  ?>
