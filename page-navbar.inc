@@ -1,3 +1,10 @@
+<?php
+/**
+* Obsolete
+* delete the outdated navigation menu and the files it called
+* these files are no longer used at Shoals
+*/
+?>
 <!-- Expects menu.css -->
 <div id="menu">
   <!-- about the band-->
