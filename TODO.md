@@ -5,4 +5,6 @@ TODO
 3. add README and TODO files (done)
 4. add info about December concert to coming concerts list (done)
 5. initiate branch: CLEAN to remove unused components (done)
+6. removed obsolete navbar and related files. Test was successful. Merged to master (done)
+
 
