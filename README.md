@@ -17,15 +17,16 @@ The purpose is to reduce Shoals to the minimum code needed to run the site and t
 
 To be deleted:  
 
-* page-navbar.inc
-* organization.php
-* org-docs.php
 * board.php
 * funding.php
+* links.php
 * music-folder-cb.php
 * music-wish-cb.php
-* schedule.php
-* schedule-other.php
-* not-available.php
 * neighbors.php
-* links.php
+* not-available.php
+* org-docs.php
+* organization.php
+* page-navbar.inc
+* schedule-other.php
+* schedule.php
+
