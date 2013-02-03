@@ -10,8 +10,7 @@
   
     // Configure page headers
     $pageTitle    ="Program Archive";
-    $pageContent  ="Program for next concert and archive of
-      programs for past concerts.";
+    $pageContent  ="Archive for concerts programs.";
     $pageKeywords ="concert,performance,program,notes,archive";
     $pageStyle    ="program.css";
     $dataFile     = "";
@@ -30,14 +29,15 @@
     margin-right:auto;
   }
 </style>
+
 <!-- add php functions -->
   <?php
-  if($dataFile != '') { // optional function to read a line of data
-    require_once 'data-read.php';
+    $NAV_PREFIX='programs/program-';
+    $NAV_SUFFIX='.php';
+  
+    if($dataFile != '') { // optional function to read a line of data
+      require_once 'data-read.php';
     }
-  // local configuration
-  $NAV_PREFIX='programs/program-';
-  $NAV_SUFFIX='.php';
 
   // Concerts:
   // create file with program listing, where file name conforms to pattern
@@ -54,11 +54,9 @@
     strtotime('July 19 2009'),
     strtotime('Oct 5 2008'),
     strtotime('July 20 2008'),
-    strtotime('July 19 2007'),
+    strtotime('July 19 2007')
     );
-
   ?>
-  
 
 <!-- set up jquery and plugins -->
 
@@ -79,18 +77,22 @@
 	<div id="introduction">
 		<h1>Concert Programs</h1> 
 
-  	<p>Programs for our past concerts are typical of the music we play, and an indication of
-    what you are likely to hear from us. We try not to repeat selections too much, and like to
-    vary our programs, but the general style remains fairly consistent. Choose a date from the
-    menu to see what we played on a particular concert.</p>
+  	<p>Programs for our past concerts are typical of the music we play, and an
+  	indication of what you are likely to hear from us. We try not to repeat
+  	selections too much, and like to vary our programs, but the general style
+  	remains fairly consistent. Choose a date from the menu to see what we played
+  	on a particular concert.</p>
 
-  	 <p>If you print this page, you will see only the currently visible program, without the
-     navigation and footer information. You can view other programs by selecting a concert date
-     from the list and clicking on "show program". </p>
+  	 <p>If you print this page, you will see only the currently visible
+  	 program, without the navigation and footer information. You can view other
+  	 programs by selecting a concert date from the list and clicking on "show
+  	 program". </p>
   	
   	 <p>Band members should review the <a title="How to dress, what to bring"
-     href="/concert-notes-v2.php">Concert notes</a> for concert dress, what to bring, and
-     reporting time. </p>
+  	 href="/concert-notes-v2.php">Concert notes</a> for concert dress, what to
+  	 bring, and reporting time. </p>
+
+
 
      <div id="selection">
      	<div id="navcontainer">
@@ -98,10 +100,12 @@
      		<p>
      	   <select name="list1">
      			<option selected="selected" value="help">Choose date</option>
-     			<?php foreach ($concert as $event) {
-     			  echo '<option value="'.date('ymd',$event).'">'.date('M j Y',$event).'</option>';
-     			}
-     			?>
+     			<?php foreach ($concert as $event) { 
+            echo 
+              '<option value="'.date('ymd',$event).'">'
+              .date('M j Y',$event).'</option>'; } 
+          ?>
+
      		</select>
      			<input type="hidden" name="_submit_check" value="1" /> 
      			<input type="submit" value="show program" />

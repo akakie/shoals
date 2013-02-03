@@ -1,90 +1,82 @@
 <div id="program-070719">
-  <h1><cite>W. C. Handy Music Festival</cite>
-    <br />A Trip Into Jazz</h1>
-  <h2>
-      July 2007
-    </h2>
+  <h1>
+    <cite>W. C. Handy Music Festival</cite><br />
+    A Trip Into Jazz
+  </h1>
+  <h2>July 2007</h2>
 
-    <div id="playlist" title="playlist in performance order">
-      <table title="Program for July 20079">
-
-        <!-- <tr>
-          <td colspan="2" class="note">
-          Concert Band Program<br />
-          Wendy Ward, Director<br />
-          Pam Hallberg, Guest Emcee
-          </td>
-        </tr> -->
+  <div id="playlist" title="playlist in performance order">
+    
+    <table title="Program for July 2007">
         
-  <tr><th>Selection</th><th>Composer<br/>Arranger</th></tr>
+      <tr><th>Selection</th><th>Composer<br/>Arranger</th></tr>
+    <!-- Column header -->
+        <tr>
+          <td colspan="2" class="note">
+          Shoals Community Band
+          </td>
+        </tr> 
+    <!-- Play list -->
+        <tr>
+          <td><cite>Count Basie Salute</cite>
+             </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Cole Porter Classics</cite>
+             </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Embraceable You</cite>
+             </td>
+          <td>
+            Featuring Jeannie Jordon, Trumpet
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Salute the Duke</cite>
+             </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Harlem Nocturne</cite>
+             </td>
+          <td>Featuring Gene Gooch, Alto sax</td>
+        </tr>
+        <tr>
+          <td><cite>Gershwin Classics</cite>
+             </td>
+          <td> 
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Stardust</cite></td>
+          <td>
+            Featuring Bill Wynne, Clarinet
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Dixieland Ramble</cite></td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td><cite>Cool Blues for Trombone</cite></td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td><cite>St. Louis Blues</cite>
+             </td>
+          <td>
+          </td>
+        </tr>
+    </table>
 
-  <tr>
-    <td colspan="2" class="note">
-    Shoals Community Band
-    </td>
-  </tr> 
-
-
-  <tr>
-    <td><cite>Count Basie Salute</cite>
-       </td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Cole Porter Classics</cite>
-       </td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Embraceable You</cite>
-       </td>
-    <td>
-      Featuring Jeannie Jordon, Trumpet
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Salute the Duke</cite>
-       </td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Harlem Nocturne</cite>
-       </td>
-    <td>Featuring Gene Gooch, Alto sax</td>
-  </tr>
-  <tr>
-    <td><cite>Gershwin Classics</cite>
-       </td>
-    <td> 
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Stardust</cite></td>
-    <td>
-      Featuring Bill Wynne, Clarinet
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Dixieland Ramble</cite></td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td><cite>Cool Blues for Trombone</cite></td>
-    <td>
-    </td>
-  </tr>
-  <tr>
-    <td><cite>St. Louis Blues</cite>
-       </td>
-    <td>
-    </td>
-  </tr>
-  </table>
-
-  </div> <!-- playlist -->
-</div> <!-- program -->
+  </div> <!-- end playlist -->
+</div> <!-- end program -->
 
