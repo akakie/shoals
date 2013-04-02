@@ -123,6 +123,7 @@
 
   </div>  <!-- end of introduction -->
   
+  echo "show next item (1) <br>";
 
   <?php 
   
@@ -137,7 +138,7 @@
   ?>
 
     <div id="announcements">
-      
+echo "show next item (2) <br>";
 <div class=event>
   
 <style>
@@ -151,6 +152,8 @@ ul.event {
 </style>
 
 <?php  
+
+
   $event = array(
     'event_date'  => '4/7/2013 3:00pm',
     'show_from'   => '3/31/2013',
