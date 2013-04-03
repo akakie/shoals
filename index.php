@@ -110,7 +110,7 @@
   <div id="introduction">
     
     <p>
-      <img src="/images/home_photos.jpg" alt="Local scene" >
+      <img src="images/home_photos.jpg" alt="Local scene" >
     </p>
 
     <p>The <?php echo $org; ?> is a wind and percussion ensemble for adult
@@ -123,11 +123,13 @@
 
   </div>  <!-- end of introduction -->
   
-  echo "show next item (1) <br>";
+  
 
   <?php 
+  echo "show next item (1) <br>";
   
     get_schedule('schedule-cb.csv',$theDate,false);
+    echo "show next item (2) <br>";
     $i = -1;
     foreach ($groupList as $gp => $name) {
      $result = fillArray($i,$gp,$dateStart,$dateStop,$r_omit,$shortForm);
@@ -138,7 +140,7 @@
   ?>
 
     <div id="announcements">
-echo "show next item (2) <br>";
+
 <div class=event>
   
 <style>

@@ -1,7 +1,7 @@
 <?php
 // Support functions for scheduling.
 function get_schedule($dataFile,$theDate,$debug) {
-
+  echo "enter function<br>";
 global $n_rehearsals,$n_remaining,$have_rehearsal,$have_concert,$cycle,$concert,$rehearsal,$note;
 require_once 'data-read.inc';
 
@@ -17,6 +17,8 @@ $rTypes = array('r','y' );
 if(($fp = fopen($dataFile, "r")) == false) {
      die("Can't open data file '$dataFile'.\n");
 }
+
+
 while($inString = read_file_line($fp)) {
     list( $date,$venue,$action,$note ) =
     explode("\t", $inString);

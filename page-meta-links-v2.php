@@ -13,10 +13,10 @@
   <?php echo $pageKeywords; ?>" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 
-<link rel="stylesheet" href="/css/scb-layout.css" media="screen" />
-<link rel="stylesheet" href="/css/scb-format.css" media="all" />
-<link rel="stylesheet" href="/css/scb-menu.css" media="screen" />
+<link rel="stylesheet" href="css/scb-layout.css" media="screen" />
+<link rel="stylesheet" href="css/scb-format.css" media="all" />
+<link rel="stylesheet" href="css/scb-menu.css" media="screen" />
 
-<link rel="stylesheet" href="/css/scb-print.css" media="print" />
+<link rel="stylesheet" href="css/scb-print.css" media="print" />
 
 <?php if($pageStyle != '') {require_once $pageStyle;} ?>
