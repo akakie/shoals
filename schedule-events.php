@@ -1,7 +1,6 @@
 <?php
 // Support functions for scheduling.
 function get_schedule($dataFile,$theDate,$debug) {
-  echo "enter function<br>";
 global $n_rehearsals,$n_remaining,$have_rehearsal,$have_concert,$cycle,$concert,$rehearsal,$note;
 require_once 'data-read.inc';
 

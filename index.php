@@ -126,10 +126,8 @@
   
 
   <?php 
-  echo "show next item (1) <br>";
   
     get_schedule('schedule-cb.csv',$theDate,false);
-    echo "show next item (2) <br>";
     $i = -1;
     foreach ($groupList as $gp => $name) {
      $result = fillArray($i,$gp,$dateStart,$dateStop,$r_omit,$shortForm);
