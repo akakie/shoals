@@ -84,7 +84,7 @@
     <div id="introduction">
       
       <p>
-        <img src="/images/home_photos.jpg" alt="Local scene" >
+        <img src="images/home_photos.jpg" alt="Local scene" >
       </p>
 
       <p>The <?php echo $org; ?> is a wind and percussion ensemble for adult musicians. We are
@@ -146,7 +146,7 @@
     </ul>
 
      <!-- <img class="program"
-      src="/images/Shoals Band Oct 09-bigger.png" 
+      src="images/Shoals Band Oct 09-bigger.png" 
       title="Program for Concert Band performance" 
       alt="Program for Concert Oct. 9, 2009" 
     /> -->

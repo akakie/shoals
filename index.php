@@ -110,7 +110,7 @@
   <div id="introduction">
     
     <p>
-      <img src="/images/home_photos.jpg" alt="Local scene" >
+      <img src="images/home_photos.jpg" alt="Local scene" >
     </p>
 
     <p>The <?php echo $org; ?> is a wind and percussion ensemble for adult
@@ -122,6 +122,7 @@
     how to join.</p>
 
   </div>  <!-- end of introduction -->
+  
   
 
   <?php 
@@ -137,7 +138,7 @@
   ?>
 
     <div id="announcements">
-      
+
 <div class=event>
   
 <style>
@@ -151,6 +152,8 @@ ul.event {
 </style>
 
 <?php  
+
+
   $event = array(
     'event_date'  => '4/7/2013 3:00pm',
     'show_from'   => '3/31/2013',
