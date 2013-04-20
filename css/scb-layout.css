@@ -42,7 +42,7 @@ a:hover, a:active {
 /* Header is called "banner" here */
 
 #banner {
-	background-image: url(/images/header_bg.jpg);
+	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
 	height: 150px;
 	padding: 0px;
@@ -51,12 +51,12 @@ a:hover, a:active {
 }
 #banner h1 {
 	display: block;
-	background-image: url(/images/title.gif);
+	background-image: url(../images/title.gif);
 	background-repeat: no-repeat;
 	height: 150px;
 	width: 576px;
 	text-indent: -9999px;
-	z-index: -1;
+  z-index: -1;
 }
 
 
